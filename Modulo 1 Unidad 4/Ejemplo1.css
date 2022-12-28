@@ -1,0 +1,30 @@
+h1{
+    color: red;
+    text-transform: uppercase;
+    background-color: black;
+    text-align: center;
+}
+h2{
+    color: blue;
+    font-style: italic;
+    border-bottom: 2px solid blue;
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:  20px;
+    }
+    .destacados{
+        color: orange;
+        font-weight: bold;
+    }
+    #caja{
+         width:200px;
+         height: 200px;
+         background-color: yellow;
+         border-top: 10px dashed red;
+         padding: 15px;
+         margin-left: 150px;
+         margin-top: 50px;
+        
+    }
