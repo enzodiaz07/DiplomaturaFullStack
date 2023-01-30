@@ -1,0 +1,21 @@
+/*font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Gemstones', cursive;*/
+.texto{ 
+    background-color: yellow;
+    column-count: 3;
+    column-gap: 50px;
+}
+
+h2 { 
+    font-family: 'Rubik Gemstones', cursive;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.prueba {
+    color: red;
+    font-size: 25px;
+
+}
