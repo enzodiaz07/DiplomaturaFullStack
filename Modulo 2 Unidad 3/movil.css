@@ -1,0 +1,45 @@
+@media screen and (min-width:230px) and (max-width:800px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    .contenedor{
+        background: #8fa68e;
+        width: 100%;
+
+    }
+    nav{
+        background: #fc6;
+        float: none;
+        width: 100%;
+    }
+    nav ul {
+        margin:0;
+    }
+    nav ul li a {
+        padding: 0.5em;
+        display: block;
+        color: #000;
+
+    }
+    .contenido {
+        border-top: solid black 0.1em;
+        float: none;
+        padding: 0.9em;
+        width: 100%;
+        margin-left: 0;
+    }
+    section{
+        float: none;
+        padding: 0.5em;
+        width: 100%;
+        margin-left: 0;
+    }
+aside {
+    border-top: solid black 0.1em;
+    float: none;
+    padding: 0.8em;
+    width:100%;
+    margin-left: 0;
+}
+}
