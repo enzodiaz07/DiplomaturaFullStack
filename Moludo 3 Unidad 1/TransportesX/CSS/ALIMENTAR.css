@@ -67,12 +67,38 @@ h2 {
     font-weight: 400;
 }
 
-.bienvenidos img {
+
+.bienvenidos {
+    
+    width: 75%;
+    box-sizing: border-box;
+    background-color:burlywood;
+    
+}
+ img {
  
     max-width: 70%;
-    padding: 70px;
-    margin: 60px;
-    border: 20px;
+    padding: 50px;
+    padding-left: 120px;
+    border: 50px;
     
 
+}
+.empresas  {
+    width: 30%;
+}
+.columnas { 
+display: flex;
+justify-content: space-between;
+    
+}
+
+
+
+.empresas  {
+    background-color: rgb(132, 197, 228);
+}
+
+.empresas li {
+    background-color: #a8451e;
 }
