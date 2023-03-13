@@ -102,3 +102,48 @@ justify-content: space-between;
 .empresas li {
     background-color: #a8451e;
 }
+
+
+
+/** fin home**/
+
+.Historia p {
+    font-size: 13px;
+}
+
+
+
+.persona {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: #a8451e;
+
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona img {
+    border-radius: 40%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0 , 0.5);
+    align-content: center;
+}
+
+.persona h5,
+.persona h6 {
+    margin: 0;
+    font-weight: normal;
+    color: rgb(10, 63, 124);
+}
+
+.persona p {
+    font-size: 15px;
+    color: rgb(10, 63, 124);
+}
