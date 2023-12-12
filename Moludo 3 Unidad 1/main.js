@@ -96,13 +96,13 @@ console.log ("La primer categoria de ropa es" + JSON.stringify (ArrayDeProductos
 
 let RemeraElegida = prompt ("Declarar si quiere adquirir remeradeRiver1, RemeraDeBoca1 o RemeraDeArgentina1.");
 
-if (RemeraElegida == RemeraDeRiver1 ){
+if (RemeraElegida == RemeraDeRiver1.Nombre ){
 alert ("Usted Selecciono Remera de river");
 }
-else if (RemeraElegida == RemeraDeBoca1 ) {
+else if (RemeraElegida == RemeraDeBoca1.Nombre ) {
 alert ("Usted selecciono remera de boca");
 }
-else if (RemeraElegida == RemeraDeArgentina1 ) {
+else if (RemeraElegida == RemeraDeArgentina1.nombre ) {
     alert ("usted selecciono remera de Argentina");
 }
 else {
@@ -110,3 +110,20 @@ else {
 }
 
 console.log ("la remera elegida es" + RemeraElegida);
+
+let MetodoDePago = prompt ("Decidir si pagara en Tarjeta de credito o debito");
+const Debito = {
+    Nombre: "debito",
+}
+const Credito = {
+    Nombre: "Credito",
+}
+if (MetodoDePago == Debito) {
+    alert ("Ingresar Datos de su tarjeta de debito a continuacion")
+
+}
+else if (MetodoDePago == Credito) {
+    alert ("Ingresar Datos de su tarjeta de credito a continuacion")
+}
+
+alert ("Muchas gracias por su compra, vuelva pronto.")
