@@ -90,9 +90,23 @@ const ArrayDeProductos = [RemeraDeRiver1, RemeraDeRiver2, RemeraDeRiver3, Remera
 const ArrayDeProductos2 = [RemeraDeBoca1, RemeraDeBoca2, RemeraDeBoca3, RemeraDeBoca4]
 const ArrayDeProductos3 = [RemeraDeArgentina1, RemeraDeArgentina2, RemeraDeArgentina3, RemeraDeArgentina4]
 
-console.log ("La primer categoria de ropa es" + ArrayDeProductos);
-console.log ("La primer categoria de ropa es" + ArrayDeProductos2);
-console.log ("La primer categoria de ropa es" + ArrayDeProductos3);
+console.log ("La primer categoria de ropa es" + JSON.stringify (ArrayDeProductos));
+console.log ("La primer categoria de ropa es" + JSON.stringify (ArrayDeProductos2));
+console.log ("La primer categoria de ropa es" + JSON.stringify (ArrayDeProductos3));
 
+let RemeraElegida = prompt ("Declarar si quiere adquirir remeradeRiver1, RemeraDeBoca1 o RemeraDeArgentina1.");
 
-let SeleccionDeCategoria = prompt ("Inserte");
+if (RemeraElegida == RemeraDeRiver1 ){
+alert ("Usted Selecciono Remera de river");
+}
+else if (RemeraElegida == RemeraDeBoca1 ) {
+alert ("Usted selecciono remera de boca");
+}
+else if (RemeraElegida == RemeraDeArgentina1 ) {
+    alert ("usted selecciono remera de Argentina");
+}
+else {
+    alert ("Usted ha salido de la compra");
+}
+
+console.log ("la remera elegida es" + RemeraElegida);
