@@ -1,5 +1,6 @@
 
 const container = document.getElementById("container");
+const arrayCarrito = []
 
 allCamisetas.forEach((el, ) => {
     const card = document.createElement("div");
@@ -11,13 +12,13 @@ allCamisetas.forEach((el, ) => {
     const preciocamiseta = document.createElement("h4");
     preciocamiseta.innerText = `${el.precio}`;
 
-
-    
-
     const btnInfo = document.createElement("button");
     btnInfo.innerText = "Comprar Camiseta";
-    btnInfo.onclick = () => alert("Agregaste al carrito" + el.nombre);
-
+    btnInfo.onclick = () => {
+        arrayCarrito.push(el)
+        localStorage.setItem ("carrito", JSON.stringify(arrayCarrito));
+        alert("Agregaste al carrito" + el.nombre);
+    }
     card.appendChild(Nombrecamiseta);
     card.appendChild(preciocamiseta);
   
@@ -25,9 +26,4 @@ allCamisetas.forEach((el, ) => {
 
     container.appendChild(card);
 
-  
 })
-
-localStorage.setItem ("allCamisetas", JSON.stringify(allCamisetas));
-let usuario;
-let usuarioEnELS= JSON.parse (localStorage.getItem(allCamisetas))
